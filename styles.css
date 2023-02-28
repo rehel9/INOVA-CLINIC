@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -50,12 +137,12 @@ table {
 /* Termina reset.css */
 
 @font-face {
-    font-family: 'VALORANT';
-    src: url('./fonts/VALORANT-Regular.woff') format('woff'), 
+	font-family: 'VALORANT';
+	src: url('./fonts/VALORANT-Regular.woff') format('woff'),
 		url('./fonts/Valorant Font.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 :root {
@@ -136,7 +223,7 @@ header a:visited {
 	flex-flow: column wrap;
 }
 
-.presentation h1{
+.presentation h1 {
 	font-family: var(--header-font-valorant), sans-serif;
 	font-size: 5rem;
 
@@ -147,13 +234,13 @@ header a:visited {
 }
 
 .stroke {
-  	text-shadow: -2.5px -2.5px 0 var(--header-blue-color), 2.5px -2.5px 0 var(--header-blue-color), 
-	-2.5px 2.5px 0 var(--header-blue-color), 2.5px 2.5px 0 var(--header-blue-color);
+	text-shadow: -2.5px -2.5px 0 var(--header-blue-color), 2.5px -2.5px 0 var(--header-blue-color),
+		-2.5px 2.5px 0 var(--header-blue-color), 2.5px 2.5px 0 var(--header-blue-color);
 }
 
 /* MAIN */
 
-main {
+.pages {
 	height: 80vh;
 
 	background-image: url('./images/fondo-suave.webp');
@@ -168,7 +255,7 @@ main {
 	padding: 50px;
 }
 
-main h1 {
+.pages h1 {
 	background-color: grey;
 	font-size: 5rem;
 
