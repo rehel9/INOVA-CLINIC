@@ -151,6 +151,31 @@ header a:visited {
 	-2.5px 2.5px 0 var(--header-blue-color), 2.5px 2.5px 0 var(--header-blue-color);
 }
 
+/* MAIN */
+
+main {
+	height: 80vh;
+
+	background-image: url('./images/fondo-suave.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	padding: 50px;
+}
+
+main h1 {
+	background-color: grey;
+	font-size: 5rem;
+
+	margin: 10px;
+}
+
+/* Termina MAIN*/
 footer {
 	position: sticky;
 
