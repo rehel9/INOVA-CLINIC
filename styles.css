@@ -73,6 +73,8 @@ header {
 	flex-flow: row wrap;
 
 	justify-content: space-evenly;
+
+	height: 20vh;
 }
 
 header a:link,
@@ -113,4 +115,38 @@ header a:visited {
 	display: flex;
 	justify-content: space-between;
 
+}
+
+/* Termina CSS de header */
+
+/* Empieza CSS de main */
+
+.presentation {
+	background-image: url('./images/fondo-suave.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	height: 80vh;
+
+	color: white;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+.presentation h1{
+	font-family: var(--header-font-valorant), sans-serif;
+	font-size: 5rem;
+
+}
+
+.presentation p {
+	font-size: 2rem;
+}
+
+.stroke {
+  	text-shadow: -2.5px -2.5px 0 var(--header-blue-color), 2.5px -2.5px 0 var(--header-blue-color), 
+	-2.5px 2.5px 0 var(--header-blue-color), 2.5px 2.5px 0 var(--header-blue-color);
 }
