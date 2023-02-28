@@ -46,3 +46,71 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Termina reset.css */
+
+@font-face {
+    font-family: 'VALORANT';
+    src: url('./fonts/VALORANT-Regular.woff') format('woff'), 
+		url('./fonts/Valorant Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+	--header-blue-color: #233C8B;
+	--header-logo-bg-color: #7CB8DF;
+
+	--header-font-valorant: 'VALORANT'
+}
+
+header {
+	background-color: var(--header-blue-color);
+	color: white;
+
+	display: flex;
+	flex-flow: row wrap;
+
+	justify-content: space-evenly;
+}
+
+header a:link,
+header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	background-color: var(--header-logo-bg-color);
+
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 5vh 0;
+}
+
+.search h1 {
+	font-family: var(--header-font-valorant), sans-serif;
+	font-size: 4rem;
+	font-style: italic;
+}
+
+.input-search {
+	height: 2rem;
+	width: 30vw;
+
+	border-radius: 5px;
+
+	margin: 0 4vw;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+
+}
