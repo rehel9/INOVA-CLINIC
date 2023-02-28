@@ -150,3 +150,36 @@ header a:visited {
   	text-shadow: -2.5px -2.5px 0 var(--header-blue-color), 2.5px -2.5px 0 var(--header-blue-color), 
 	-2.5px 2.5px 0 var(--header-blue-color), 2.5px 2.5px 0 var(--header-blue-color);
 }
+
+footer {
+	position: sticky;
+
+	margin-top: auto;
+
+	color: white;
+}
+
+.footer {
+	display: flex;
+	flex-flow: row nowrap;
+
+	justify-content: space-around;
+}
+
+.color1 {
+	background-color: #233C8B;
+}
+
+.color2 {
+	background-color: #7CB8DF;
+}
+
+.color1,
+.color2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 20vw;
+	height: 10vh;
+}
