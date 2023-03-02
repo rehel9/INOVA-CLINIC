@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,104 +104,104 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Termina reset.css */
 
 @font-face {
-	font-family: 'VALORANT';
-	src: url('./fonts/VALORANT-Regular.woff') format('woff'),
-		url('./fonts/Valorant Font.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: "VALORANT";
+  src: url("./fonts/VALORANT-Regular.woff") format("woff"),
+    url("./fonts/Valorant Font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-	--header-blue-color: #233C8B;
-	--header-logo-bg-color: #7CB8DF;
+  --header-blue-color: #233c8b;
+  --header-logo-bg-color: #7cb8df;
 
-	--header-font-valorant: 'VALORANT'
+  --header-font-valorant: "VALORANT";
 }
 
 header {
-	background-color: var(--header-blue-color);
-	color: white;
+  background-color: var(--header-blue-color);
+  color: white;
 
-	display: flex;
-	flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 
-	justify-content: space-evenly;
+  justify-content: space-evenly;
 
-	height: 20vh;
+  height: 20vh;
 }
 
 header a:link,
-header a:visited {
-	color: white;
-	text-decoration: none;
+header a:visited,
+footer a:link,
+footer a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .logo {
-	background-color: var(--header-logo-bg-color);
-
+  background-color: var(--header-logo-bg-color);
 }
 
 .search {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	margin: 3vh 0;
+  margin: 3vh 0;
 }
 
 .search h1 {
-	font-family: var(--header-font-valorant), sans-serif;
-	font-size: 4rem;
-	font-style: italic;
+  font-family: var(--header-font-valorant), sans-serif;
+  font-size: 4rem;
+  font-style: italic;
 }
 
 .input-search {
-	height: 2rem;
-	width: 30vw;
+  height: 2rem;
+  width: 30vw;
 
-	border-radius: 5px;
+  border-radius: 5px;
 
-	margin: 0 4vw;
+  margin: 0 4vw;
 }
 
 .links {
-	display: flex;
-	justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Termina CSS de header */
@@ -209,89 +209,90 @@ header a:visited {
 /* Empieza CSS de main */
 
 .presentation {
-	background-image: url('./images/fondo-suave.webp');
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-image: url("./images/fondo-suave.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 
-	height: 80vh;
+  height: 80vh;
 
-	color: white;
+  color: white;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
 .presentation h1 {
-	font-family: var(--header-font-valorant), sans-serif;
-	font-size: 5rem;
-
+  font-family: var(--header-font-valorant), sans-serif;
+  font-size: 5rem;
 }
 
 .presentation p {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .stroke {
-	text-shadow: -2.5px -2.5px 0 var(--header-blue-color), 2.5px -2.5px 0 var(--header-blue-color),
-		-2.5px 2.5px 0 var(--header-blue-color), 2.5px 2.5px 0 var(--header-blue-color);
+  text-shadow: -2.5px -2.5px 0 var(--header-blue-color),
+    2.5px -2.5px 0 var(--header-blue-color),
+    -2.5px 2.5px 0 var(--header-blue-color),
+    2.5px 2.5px 0 var(--header-blue-color);
 }
 
 /* MAIN */
 
 .pages {
-	height: 80vh;
+  height: 80vh;
 
-	background-image: url('./images/fondo-suave.webp');
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url("./images/fondo-suave.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-	display: flex;
-	flex-flow: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 
-	padding: 50px;
+  padding: 50px;
 }
 
 .pages h1 {
-	background-color: grey;
-	font-size: 5rem;
+  background-color: grey;
+  font-size: 5rem;
 
-	margin: 10px;
+  margin: 10px;
 }
 
 /* Termina MAIN*/
 footer {
-	position: sticky;
+  position: sticky;
 
-	margin-top: auto;
+  margin-top: auto;
 
-	color: white;
+  color: white;
 }
 
 .footer {
-	display: flex;
-	flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .color1 {
-	background-color: #233C8B;
+  background-color: #233c8b;
 }
 
 .color2 {
-	background-color: #7CB8DF;
+  background-color: #7cb8df;
 }
 
 .color1,
 .color2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	width: 20vw;
-	height: 10vh;
+  width: 20vw;
+  height: 10vh;
 }
