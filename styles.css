@@ -265,7 +265,7 @@ footer a:visited {
 
 /* Termina MAIN*/
 footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   margin-top: auto;
 
@@ -295,4 +295,28 @@ footer {
 
   width: 20vw;
   height: 10vh;
+}
+
+
+/* Estilos de Form */
+
+form {
+  background-color:white;
+  padding: 20px;
+}
+
+fieldset {
+  display: flex;
+  flex-flow: column wrap;
+
+  width: 20vw;
+
+  border: black 1px solid;
+  margin: 30px;
+  padding: 10px;
+}
+
+.boton-enviar {
+  background-color: #7cb8df;
+  margin-bottom: 50px;
 }
