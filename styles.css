@@ -303,16 +303,19 @@ footer {
 form {
   background-color:white;
   padding: 20px;
+
+  display: flex;
+  flex-flow: row wrap;
 }
 
 fieldset {
   display: flex;
   flex-flow: column wrap;
 
-  width: 20vw;
+  width: 15vw;
 
   border: black 1px solid;
-  margin: 30px;
+  margin: 10px;
   padding: 10px;
 }
 
