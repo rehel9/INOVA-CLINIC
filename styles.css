@@ -297,11 +297,10 @@ footer {
   height: 10vh;
 }
 
-
 /* Estilos de Form */
 
 form {
-  background-color:white;
+  background-color: white;
   padding: 20px;
 
   display: flex;
@@ -322,4 +321,20 @@ fieldset {
 .boton-enviar {
   background-color: #7cb8df;
   margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #233c8b;
+}
+
+.correct-footer {
+  height: 20vw;
+
+  display: flex;
+  
+}
+
+.not-finished {
+  font-size: 50px;
+  color: white;
 }
