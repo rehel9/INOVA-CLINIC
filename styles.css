@@ -233,6 +233,8 @@ footer a:visited {
 }
 
 .stroke {
+  font-family: var(--header-font-valorant), sans-serif;
+  font-size: 5rem;
   text-shadow: -2.5px -2.5px 0 var(--header-blue-color),
     2.5px -2.5px 0 var(--header-blue-color),
     -2.5px 2.5px 0 var(--header-blue-color),
@@ -328,10 +330,13 @@ fieldset {
 }
 
 .correct-footer {
+  color: wheat;
+
   height: 20vw;
 
   display: flex;
   
+  padding: 20px;
 }
 
 .not-finished {
