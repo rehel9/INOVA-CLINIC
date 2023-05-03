@@ -208,6 +208,12 @@ footer a:visited {
 
 /* Empieza CSS de main */
 
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 .presentation {
   background-image: url("./images/fondo-suave.webp");
   background-size: cover;
@@ -331,7 +337,6 @@ fieldset {
   height: 20vw;
 
   display: flex;
-  
 }
 
 .not-finished {
