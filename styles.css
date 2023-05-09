@@ -136,6 +136,8 @@ table {
 
 /* Termina reset.css */
 
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
 @font-face {
   font-family: "VALORANT";
   src: url("./fonts/VALORANT-Regular.woff") format("woff"),
@@ -150,6 +152,10 @@ table {
   --header-logo-bg-color: #7cb8df;
 
   --header-font-valorant: "VALORANT";
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
 }
 
 header {
@@ -207,12 +213,6 @@ footer a:visited {
 /* Termina CSS de header */
 
 /* Empieza CSS de main */
-
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-
-body {
-  font-family: "Quicksand", sans-serif;
-}
 
 .presentation {
   background-image: url("./images/fondo-suave.webp");
