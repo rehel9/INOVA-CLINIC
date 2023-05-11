@@ -259,13 +259,12 @@ footer a:visited {
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 
   padding: 50px;
 }
 
 .pages h1 {
-  background-color: grey;
   font-size: 5rem;
 
   margin: 10px;
@@ -348,4 +347,12 @@ fieldset {
 .not-finished {
   font-size: 50px;
   color: white;
+}
+
+.vinetas {
+  list-style-type: circle;
+}
+
+.margin-extra {
+  margin-top: 10px;
 }
