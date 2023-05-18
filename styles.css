@@ -156,6 +156,7 @@ table {
 
 body {
   font-family: "Quicksand", sans-serif;
+  color: black;
 }
 
 header {
@@ -215,7 +216,7 @@ footer a:visited {
 /* Empieza CSS de main */
 
 .presentation {
-  background-image: url("./images/fondo-suave.webp");
+  background-image: url("./images/fondo-suave2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -252,7 +253,7 @@ footer a:visited {
 .pages {
   height: 80vh;
 
-  background-image: url("./images/fondo-suave.webp");
+  background-image: url("./images/fondo-suave2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -355,4 +356,11 @@ fieldset {
 
 .margin-extra {
   margin-top: 10px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+
+  width: 500px;
 }
