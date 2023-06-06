@@ -40,9 +40,17 @@
 
 
    if (!$insertar_cliente) {
-     echo "Error al guardar";
+        echo'
+            <script type="text/javascript">
+            alert("Error");
+            window.location.href="preadmisionhospitalaria.html";
+            </script>';
     } else {
-     echo "Guardado con éxito <br> <a href=../pages/preadmisionhospitalaria.html> Regresar al cuestionario </a>";
+        echo'
+            <script type="text/javascript">
+            alert("Informacion guardada con exito");
+            window.location.href="preadmisionhospitalaria.html";
+            </script>';
     }
 
     mysqli_close($connection);
