@@ -343,11 +343,19 @@ footer {
 /* Estilos de Form */
 
 form {
-  background-color: white;
+  background-color: #77c8fd;
+  opacity: 0.8;
   padding: 20px;
 
+  border-radius: 10px;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 
 fieldset {
@@ -361,9 +369,24 @@ fieldset {
   padding: 10px;
 }
 
+input {
+  border-radius: 5px;
+
+  margin-bottom: 0px;
+}
+
 .boton-enviar {
-  background-color: #7cb8df;
-  margin-bottom: 50px;
+  background-color: white;
+  font-size: 1.5rem;
+
+  height: 35px;
+  width: 95px;  
+
+  border-radius: 10px;
+
+  margin-left: 10px;
+
+  align-self: flex-end;
 }
 
 
