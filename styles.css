@@ -156,7 +156,6 @@ table {
 
 body {
   font-family: "Quicksand", sans-serif;
-  color: black;
 }
 
 header {
@@ -216,11 +215,11 @@ footer a:visited {
 /* Empieza CSS de main */
 
 .presentation {
-  background-image: url("./images/fondo-suave2.jpg");
+  background-image: url("./images/2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 70vh;
+  height: 90vh;
 
   color: white;
 
@@ -249,11 +248,48 @@ footer a:visited {
 }
 
 /* MAIN */
+.pages1 {
+  height: 80vh;
 
+  background-image : url("./images/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 50px;
+}
+.pages1 h2 {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-weight: bold ;
+  margin: 10px;
+  
+}
+.pages1 h1 {
+  font-size: 5rem;
+  color: #FFFFFF;
+  font-weight: 100 ;
+  margin: 10px;
+  
+}
+.pages1 ul{
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pages1 p{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .pages {
   height: 80vh;
 
-  background-image: url("./images/fondo-suave2.jpg");
+  background-image : url("./images/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -273,7 +309,7 @@ footer a:visited {
 
 /* Termina MAIN*/
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   margin-top: auto;
 
@@ -283,12 +319,11 @@ footer {
 .footer {
   display: flex;
   flex-flow: row nowrap;
-
   justify-content: space-around;
 }
 
 .color1 {
-  background-color: #233c8b;
+  background-color: #3498DB ;
 }
 
 .color2 {
@@ -331,19 +366,6 @@ fieldset {
   margin-bottom: 50px;
 }
 
-.footer {
-  background-color: #233c8b;
-}
-
-.correct-footer {
-  color: wheat;
-
-  height: 20vw;
-
-  display: flex;
-  
-  padding: 20px;
-}
 
 .not-finished {
   font-size: 50px;
@@ -358,9 +380,52 @@ fieldset {
   margin-top: 10px;
 }
 
-.flex-row {
+footer{
+  background: #233c8b;
+  padding: 15px 500px 15px 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenido-footer{ 
+  display: flex  ;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+
+
+}
+
+.contenido-foot{
+  text-align: center;
+  margin: 7px;
+}
+
+.contenido-foot h4{
+  color: #f8f8f8;
+  border-bottom: 3px solid #f8f8f8;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+
+  
+}
+.contenido-foot p{
+  color: #ffffff; 
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+
+  color: #9e9797;
+
+}
+
+.flex-row{
   display: flex;
   justify-content: space-around;
-
-  width: 500px;
+  margin: auto;
+  width: 1000px;
 }
